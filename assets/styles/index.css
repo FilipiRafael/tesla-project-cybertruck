@@ -89,16 +89,29 @@ main .call-to-actions button {
     padding: 1rem;
     font-size: 1rem;
     border: 1px solid #FFF;
+    cursor: pointer;
 }
 
 main .call-to-actions .order-now {
     background-color: #FFF;
     color: #000;
+    transition: all 0.3s ease-in-out;
 }
 
 main .call-to-actions .read-more {
     background-color: transparent;
     color: #FFF;
+    transition: all 0.3s ease-in-out;
+}
+
+main .call-to-actions .order-now:hover {
+    background-color: transparent;
+    color: #FFF;
+}
+
+main .call-to-actions .read-more:hover {
+    background-color: #FFF;
+    color: #000;
 }
 
 main .social-media ul {
@@ -116,4 +129,10 @@ main .social-media ul li {
     list-style-type: none;
     color: #FFF;
     font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .nav__models {
+        display: none;
+    }
 }

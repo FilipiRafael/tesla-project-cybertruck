@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/background-tesla.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 2.5rem;
+}
+
+nav img {
+    height: 30px;
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+    list-style-type: none;
+}
+
+nav ul li h2 {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav ul li img {
+    width: 24px;
+    height: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+main img {
+    margin-top: 2rem;
+    max-width: 500px;
+}
+
+main .informations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6rem;
+}
+
+main .informations span {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+main .call-to-actions {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+main .call-to-actions button {
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #FFF;
+}
+
+main .call-to-actions .order-now {
+    background-color: #FFF;
+    color: #000;
+}
+
+main .call-to-actions .read-more {
+    background-color: transparent;
+    color: #FFF;
+}
+
+main .social-media ul {
+    position: absolute;
+    left: 2rem;
+    top: 16rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 30%;
+}
+
+main .social-media ul li {
+    list-style-type: none;
+    color: #FFF;
+    font-size: 1.2rem;
+}
